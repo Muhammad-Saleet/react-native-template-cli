@@ -22,6 +22,7 @@ module.exports = {
     "no-tabs": "error",
     "no-multiple-empty-lines": ["error", { max: 1 }],
     "no-trailing-spaces": "error",
+    "no-await-in-loop": "off",
     "require-await": "warn",
 
     // typescript

@@ -12,7 +12,7 @@
     "@oclif/test": "^1.2.8",
     "@types/chai": "^4.2.21",
     "@types/mocha": "^5.2.7",
-    "@types/node": "^10.17.60",
+    "@types/node": "^16.9.0",
     "chai": "^4.3.4",
     "eslint": "^5.16.0",
     "eslint-config-oclif": "^3.1.0",
@@ -34,7 +34,10 @@
   ],
   "homepage": "https://github.com/Muhammad-Saleet/react-native-template-cli",
   "keywords": [
-    "oclif"
+    "oclif",
+    "react-native",
+    "cli",
+    "template"
   ],
   "license": "MIT",
   "main": "lib/index.js",
@@ -63,7 +66,8 @@
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.3",
-    "fs-extra": "^8.1.0",
+    "ejs": "^3.1.6",
+    "fs-jetpack": "^4.1.1",
     "tslib": "^1.14.1"
   }
 }
