@@ -1,7 +1,7 @@
 {
-  "name": "@itxi/react-native-template-cli",
+  "name": "@muhammad-saleet/react-native-template-cli",
   "description": "A tool for generating components, screens, navigators and other react native stuff",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Muhammad Saleet",
   "bin": {
     "rnt": "./bin/run"

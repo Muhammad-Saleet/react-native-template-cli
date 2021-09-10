@@ -19,7 +19,7 @@ $ npm install -g @itxi/react-native-template-cli
 $ rnt COMMAND
 running command...
 $ rnt (-v|--version|version)
-@itxi/react-native-template-cli/0.0.0 linux-x64 node-v15.2.1
+@itxi/react-native-template-cli/0.1.0 linux-x64 node-v15.2.1
 $ rnt --help [COMMAND]
 USAGE
   $ rnt COMMAND
@@ -28,24 +28,47 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`rnt component [FILE]`](#rnt-component-file)
+* [`rnt generate:component FirstComponent SecondComponent ...`](#rnt-generatecomponent-firstcomponent-secondcomponent-)
+* [`rnt mycommand --myflag`](#rnt-mycommand---myflag)
 * [`rnt help [COMMAND]`](#rnt-help-command)
 
-## `rnt component [FILE]`
+## `rnt generate:component FirstComponent SecondComponent ...`
 
-describe the command here
+Generates a component
 
 ```
 USAGE
-  $ rnt component [FILE]
+  $ rnt generate:component FirstComponent SecondComponent ...
+
+OPTIONS
+  -h, --help  show CLI help
+```
+
+_See code: [src/commands/generate/component.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.1.0/src/commands/generate/component.ts)_
+
+## `rnt mycommand --myflag`
+
+description of my command
+
+```
+USAGE
+  $ rnt mycommand --myflag
 
 OPTIONS
   -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -h, --help      show CLI help
+  -n, --name=a|b  [default: world] name to print
+
+DESCRIPTION
+  description of my command
+       can be multiline
+
+EXAMPLES
+  $ hello first second
+  $ hello --force --name=muhammad
 ```
 
-_See code: [src/commands/component.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.0.0/src/commands/component.ts)_
+_See code: [src/commands/generate/hello.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.1.0/src/commands/generate/hello.ts)_
 
 ## `rnt help [COMMAND]`
 
