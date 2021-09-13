@@ -1,3 +1,5 @@
+/* This is just a sample file. A command should go under src/commands */
+
 import { Command, flags as oclifFlags } from '@oclif/command'
 
 export default class Hello extends Command {
