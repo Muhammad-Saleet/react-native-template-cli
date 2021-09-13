@@ -19,7 +19,7 @@ $ npm install -g @muhammad-saleet/react-native-template-cli
 $ rnt COMMAND
 running command...
 $ rnt (-v|--version|version)
-@muhammad-saleet/react-native-template-cli/0.2.0 linux-x64 node-v15.2.1
+@muhammad-saleet/react-native-template-cli/0.2.1 linux-x64 node-v15.2.1
 $ rnt --help [COMMAND]
 USAGE
   $ rnt COMMAND
@@ -29,7 +29,6 @@ USAGE
 # Commands
 <!-- commands -->
 * [`rnt generate:component FirstComponent SecondComponent ...`](#rnt-generatecomponent-firstcomponent-secondcomponent-)
-* [`rnt mycommand --myflag`](#rnt-mycommand---myflag)
 * [`rnt generate:screen FirstScreen SecondSecond ...`](#rnt-generatescreen-firstscreen-secondsecond-)
 * [`rnt help [COMMAND]`](#rnt-help-command)
 
@@ -45,31 +44,7 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/generate/component.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.2.0/src/commands/generate/component.ts)_
-
-## `rnt mycommand --myflag`
-
-description of my command
-
-```
-USAGE
-  $ rnt mycommand --myflag
-
-OPTIONS
-  -f, --force
-  -h, --help      show CLI help
-  -n, --name=a|b  [default: world] name to print
-
-DESCRIPTION
-  description of my command
-       can be multiline
-
-EXAMPLES
-  $ hello first second
-  $ hello --force --name=muhammad
-```
-
-_See code: [src/commands/generate/hello.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.2.0/src/commands/generate/hello.ts)_
+_See code: [src/commands/generate/component.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.2.1/src/commands/generate/component.ts)_
 
 ## `rnt generate:screen FirstScreen SecondSecond ...`
 
@@ -83,7 +58,7 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/generate/screen.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.2.0/src/commands/generate/screen.ts)_
+_See code: [src/commands/generate/screen.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.2.1/src/commands/generate/screen.ts)_
 
 ## `rnt help [COMMAND]`
 
