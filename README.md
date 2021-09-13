@@ -19,7 +19,7 @@ $ npm install -g @muhammad-saleet/react-native-template-cli
 $ rnt COMMAND
 running command...
 $ rnt (-v|--version|version)
-@muhammad-saleet/react-native-template-cli/0.1.0 linux-x64 node-v15.2.1
+@muhammad-saleet/react-native-template-cli/0.2.0 linux-x64 node-v15.2.1
 $ rnt --help [COMMAND]
 USAGE
   $ rnt COMMAND
@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`rnt generate:component FirstComponent SecondComponent ...`](#rnt-generatecomponent-firstcomponent-secondcomponent-)
 * [`rnt mycommand --myflag`](#rnt-mycommand---myflag)
+* [`rnt generate:screen FirstScreen SecondSecond ...`](#rnt-generatescreen-firstscreen-secondsecond-)
 * [`rnt help [COMMAND]`](#rnt-help-command)
 
 ## `rnt generate:component FirstComponent SecondComponent ...`
@@ -44,7 +45,7 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/generate/component.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.1.0/src/commands/generate/component.ts)_
+_See code: [src/commands/generate/component.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.2.0/src/commands/generate/component.ts)_
 
 ## `rnt mycommand --myflag`
 
@@ -68,7 +69,21 @@ EXAMPLES
   $ hello --force --name=muhammad
 ```
 
-_See code: [src/commands/generate/hello.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.1.0/src/commands/generate/hello.ts)_
+_See code: [src/commands/generate/hello.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.2.0/src/commands/generate/hello.ts)_
+
+## `rnt generate:screen FirstScreen SecondSecond ...`
+
+Generates a screen
+
+```
+USAGE
+  $ rnt generate:screen FirstScreen SecondSecond ...
+
+OPTIONS
+  -h, --help  show CLI help
+```
+
+_See code: [src/commands/generate/screen.ts](https://github.com/Muhammad-Saleet/react-native-template-cli/blob/v0.2.0/src/commands/generate/screen.ts)_
 
 ## `rnt help [COMMAND]`
 
