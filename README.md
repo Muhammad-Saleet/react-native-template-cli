@@ -15,11 +15,11 @@ A tool for generating components, screens, navigators and other react native stu
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @itxi/react-native-template-cli
+$ npm install -g @muhammad-saleet/react-native-template-cli
 $ rnt COMMAND
 running command...
 $ rnt (-v|--version|version)
-@itxi/react-native-template-cli/0.1.0 linux-x64 node-v15.2.1
+@muhammad-saleet/react-native-template-cli/0.1.0 linux-x64 node-v15.2.1
 $ rnt --help [COMMAND]
 USAGE
   $ rnt COMMAND
